@@ -5,7 +5,7 @@ from groq import Groq
 from pdfminer.high_level import extract_text
 
 # Set API key - REPLACE WITH YOUR ACTUAL KEY
-api_key = "
+api_key = ""
 client = Groq(api_key=api_key)
 
 def extract_resume_text(pdf_file):
