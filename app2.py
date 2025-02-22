@@ -6,7 +6,7 @@ from pdfminer.high_level import extract_text
 import streamlit
 
 # Set API key - REPLACE WITH YOUR ACTUAL KEY
-api_key = "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"  # Add your Groq API key here
+api_key = ""  # Add your Groq API key here
 client = Groq(api_key=api_key)
 
 def extract_resume_text(pdf_file):

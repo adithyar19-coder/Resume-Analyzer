@@ -5,7 +5,7 @@ from pdfminer.high_level import extract_text
 from pathlib import Path
 
 # Set API key (replace with your actual API key)
-api_key = "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"
+api_key = ""
 client = Groq(api_key=api_key)
 
 # Function to extract text from PDF

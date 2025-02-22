@@ -4,7 +4,7 @@ from groq import Groq
 from pdfminer.high_level import extract_text
 
 # Set API key (ensure this is securely managed in production)
-api_key = "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"
+api_key = ""
 client = Groq(api_key=api_key)
 
 # Function to extract text from PDF
